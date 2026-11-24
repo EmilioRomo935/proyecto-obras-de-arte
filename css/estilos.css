@@ -25,3 +25,24 @@
 .navbar-toggler {
     background-color: white;
 }
+
+/* Fondo de la página */
+body {
+    background-color: #FBF5EE;
+}
+
+/* Margen del contenido principal */
+main {
+    margin: 10px;
+}
+
+/* Ancho y posición de las tarjetas */
+.tarjeta-obra {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Tamaño de los títulos de las obras */
+.tarjeta-obra h3 {
+    font-size: 18px;
+}
