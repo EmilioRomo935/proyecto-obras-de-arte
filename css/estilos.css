@@ -60,3 +60,10 @@ footer p {
     font-size: 25px;
     margin: 0;
 }
+
+/* Fondo y espacio interior del buscador de obras */
+#busquedaObras {
+    background-color: #D6CCC0;
+    padding: 15px;
+    border-radius: 10px;
+}

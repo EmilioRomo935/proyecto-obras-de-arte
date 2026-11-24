@@ -45,6 +45,59 @@
 
     <!-- Contenido principal -->
     <main>
+        <!-- Formulario para buscar obras -->
+        <section id="busquedaObras" class="container mt-5">
+            <form id="formBusqueda">
+                <label for="cadenaBusqueda" class="form-label">Buscar por:</label>
+
+                <input type="text" id="cadenaBusqueda" class="form-control mb-3" required>
+
+                <!-- Opciones para elegir el criterio de búsqueda -->
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="tipoBusqueda" id="buscarTitulo" value="q"
+                        checked>
+                    <label class="form-check-label" for="buscarTitulo">
+                        Título
+                    </label>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="tipoBusqueda" id="buscarTipo" value="tipo">
+                    <label class="form-check-label" for="buscarTipo">
+                        Pintura
+                    </label>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="tipoBusqueda" id="buscarAnio" value="anio">
+                    <label class="form-check-label" for="buscarAnio">
+                        Año
+                    </label>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="tipoBusqueda" id="buscarMovimiento" value="m">
+                    <label class="form-check-label" for="buscarMovimiento">
+                        Movimiento
+                    </label>
+                </div>
+
+                <!-- Espacio para los avisos de búsqueda -->
+                <p id="errorBusqueda" class="text-danger mt-2" aria-live="polite"></p>
+
+                <button type="submit" class="btn btn-primary mt-2">
+                    Buscar
+                </button>
+            </form>
+        </section>
+
+        <!-- Resultados: aparecen después de realizar una búsqueda -->
+        <section id="seccion-respuestas" class="container my-5" hidden>
+            <h2>Resultados de la búsqueda</h2>
+            <hr>
+            <div id="obras"></div>
+        </section>
+        
         <!-- Colección de obras de arte -->
         <section id="coleccion" class="container my-5">
             <h1>Explora la colección de arte</h1>
