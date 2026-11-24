@@ -11,7 +11,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Estilos del proyecto -->
-     <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/estilos.css">
 </head>
 
 <body id="inicio">
@@ -43,6 +43,35 @@
         </nav>
     </header>
 
+    <!-- Carrusel de arte y cultura -->
+    <div id="carruselArte" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="imagenes/pintura.jpg" class="d-block w-100" alt="Colección de pinturas">
+            </div>
+
+            <div class="carousel-item">
+                <img src="imagenes/artesanias.jpg" class="d-block w-100" alt="Colección de artesanías">
+            </div>
+
+            <div class="carousel-item">
+                <img src="imagenes/patrimonio.jpg" class="d-block w-100" alt="Colección de patrimonios">
+            </div>
+        </div>
+
+        <!-- Botón para regresar a la imagen anterior -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carruselArte" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+
+        <!-- Botón para avanzar a la siguiente imagen -->
+        <button class="carousel-control-next" type="button" data-bs-target="#carruselArte" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+        </button>
+    </div>
+
 
     <!-- JavaScript de Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
@@ -50,4 +79,5 @@
     <!-- JavaScript del proyecto -->
     <script src="js/script.js"></script>
 </body>
+
 </html>
