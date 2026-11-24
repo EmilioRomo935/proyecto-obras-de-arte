@@ -67,3 +67,15 @@ footer p {
     padding: 15px;
     border-radius: 10px;
 }
+
+/* Fichas de las obras encontradas */
+.resultado-obra {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 15px;
+}
+
+/* Títulos de las obras encontradas */
+.resultado-obra h3 {
+    font-size: 18px;
+}
