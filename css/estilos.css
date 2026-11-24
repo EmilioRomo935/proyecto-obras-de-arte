@@ -1,0 +1,27 @@
+/* Fondo de la barra */
+.navbar {
+    background-color: #1E3C2A;
+}
+
+/* Nombre del sitio */
+.navbar-brand {
+    text-transform: uppercase;
+}
+
+/* Texto blanco */
+.navbar .navbar-brand,
+.navbar .nav-link,
+.navbar .nav-link.active {
+    color: white;
+}
+
+/* Subrayado al pasar el cursor */
+.navbar .nav-link:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+/* Botón del menú */
+.navbar-toggler {
+    background-color: white;
+}
