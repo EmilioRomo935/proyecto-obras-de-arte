@@ -46,3 +46,17 @@ main {
 .tarjeta-obra h3 {
     font-size: 18px;
 }
+
+/* Fondo y espacio interior del pie de página */
+footer {
+    background-color: #1E3C2A;
+    padding: 25px;
+}
+
+/* Texto del pie de página */
+footer p {
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 0;
+}
